@@ -13,7 +13,7 @@ Enter the file name of the data set in Alpha and XEQ "DATA". If no file name is 
 
 Upon execution, the program shows labels A-E and labels a-e as successive prompts:
 
-**__+ 1:2 C:S >s V__**
+**__+ 1:2 C:S >Σ V__**
 
 **__- FX XG FM P__**
 
@@ -53,11 +53,11 @@ LBL B: >I | Enter the curve index (1-19) from Kolb’s book and get the function
 LBL C: BF | Calculate the best curve fit and show the formula for that function along with its constants and correlation coefficient. This will now be the selected curve type for showing X or Y (LBL D or d)
 LBL D: Y | Calculate Y from the X given in the X register for the selected curve type
 LBL E: BΣ | Show the basic statistical data for the entered data set
-LBL a: – | Remove last data point entered (like s-)
-LBL b: .- |
+LBL a: – | Remove last data point entered (like Σ-)
+LBL b: .- | Remove the last data pair entered (like Σ-)
 LBL c: DATA | Goto the “DATA” program (see above)
 LBL d: X | Calculate X from the Y given in the X register for the selected curve type
-LBL e: * | Back to the main menu (prompts showing labels A-E and a-e
+LBL e: * | Back to the main menu (prompts showing labels A-E and a-e)
 
 ### RG
 
