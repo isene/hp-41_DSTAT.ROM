@@ -31,8 +31,8 @@ LBL b: FX | Toggle flag 0. If flag 0 is set, it freezes the data set so that it 
 LBL c: XG | XM Get; Get file (name in Alpha) from extended memory. After retreiving the file, new data points can be added (LBL A) to enlarge the data set (or if flag 0 is set, keep the size but move the earliest data out of the file)
 LBL d: FM | Go to the FILEMAN program
 LBL e: P | Shows Properties of the data set and Prints the data set on the attached printer as a graph. First it will show the Min/Max/median of Y and of X before it asks whether you want to commence printing. Press R/S to thus commence.
-LBL I: Back to showing the manu for labels A-E and a-e
-LBL I: Shortcut to printing the data set as a graph. When using this shortcut, the Y-MIN and Y-MAX has not been calculated as with LBL e, so you have to enter it manually (Y-MIN [ENTER] Y-MAX)
+LBL I | Shortcut to printing the data set as a graph. When using this shortcut, the Y-MIN and Y-MAX has not been calculated as with LBL e, so you have to enter it manually (Y-MIN [ENTER] Y-MAX)
+LBL J | Back to showing the manu for labels A-E and a-e
 
 ### STAT
 
@@ -40,7 +40,7 @@ This program performs basic statistical analysis, moments, kurtosis, skewness an
 
 Upon execution, the program shows labels A-E and labels a-e as successive prompts:
 
-**__+ >I BF Y Bs__**
+**__+ >I BF Y BΣ__**
 
 **__- .- DATA X \*__**
 
@@ -52,7 +52,7 @@ LBL A: + | Add one data point (like s+). This is for manual input of data points
 LBL B: >I | Enter the curve index (1-19) from Kolb’s book and get the function and its constants and correlation coefficient displayed. This will now be the selected curve type for showing X or Y (LBL D or d)
 LBL C: BF | Calculate the best curve fit and show the formula for that function along with its constants and correlation coefficient. This will now be the selected curve type for showing X or Y (LBL D or d)
 LBL D: Y | Calculate Y from the X given in the X register for the selected curve type
-LBL E: Bs | Show the basic statistical data for the entered data set
+LBL E: BΣ | Show the basic statistical data for the entered data set
 LBL a: – | Remove last data point entered (like s-)
 LBL b: .- |
 LBL c: DATA | Goto the “DATA” program (see above)
