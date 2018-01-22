@@ -61,6 +61,20 @@ LBL c: DATA | Goto the “DATA” program (see above)
 LBL d: X | Calculate X from the Y given in the X register for the selected curve type
 LBL e: * | Back to the main menu (prompts showing labels A-E and a-e)
 
+### RUNTST
+
+Included in this ROM is a program from the User Library Solutions book, "Test Statistics" (called RUNTEST in that book). From the description (clarifications by me):
+
+#### The Run Test for Randomness
+
+Consider a sequence of symbols such that the symbols are of two types only. A run is a continuous string of identical symbols preceded and followed by the other symbol (or no symbol). For example, the sequence 1110100011 has five runs (111, 0, 1, 000 and 11).
+
+Let the total number of runs in a sequence be "u", and let "n1" and "n2" represent the number of symbols of type 1 and type 2 respectively (n1 is 6 and n2 is 4 in the example above). If the sample sizes are large (say n1 and n2 are both greater than 10), then the randomness of the sequence can be tested using a z statistic which has the standard distribution. For small samples, the test is based on special tables. See the User Library Solutions book for equations and this link for more in-depth understanding: http://www.itl.nist.gov/div898/handbook/eda/section3/eda35d.htm
+
+The program asks for the number of runs, the number of Type 1 and Type 2. It outputs "MU" (the mean) and "SIGMA" (the standard deviation) and Z (the test statistic). If the absolute value of Z is larger than 1.96 for larger sample sizes, the run is considered "not random".
+
+This way of testing for randomity can be used to see if e.g. men and women are picked at random, if samples "above average" and "below average" are taken at random, etc. As long as you can break samples into two categories, this program can be used to test for randomity.
+
 ### RG
 
 Included in the ROM is a random number generator. "RG" returns a random number between 0 and 1. This Random Number Generator  uses TIME as input, rendering the numbers generated “more random” than the usual HP-41 solutions that keeps a seed stored for the next value generated. If there is no Time module, RG instead takes the value in X and Y as seeds.

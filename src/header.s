@@ -11,10 +11,10 @@ fatend:       .con  0,0
 
               .section Code
 ;;; Make an empty name function for the module to show up in CAT 2
-              .name "-DSTAT 1A"		; The name of the module
+              .name "-DSTAT 1B"		; The name of the module
 header:       rtn
 
               .section TAIL
 ;;; Tail of the module with empty poll points and module ID
               .con  0,0,0,0,0,0,0
-              .text "A1SD"          ; SC1A
+              .text "B1SD"          ; SC1B

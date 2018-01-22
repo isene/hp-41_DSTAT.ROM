@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XROM Title="DSTAT.ROM">
-  <Key Label="-DSTAT 1A" Kind="MCODE"/>
+  <Key Label="-DSTAT 1B" Kind="MCODE"/>
   <Entry i="10" j="0"/>
   <Key Label="DATA" Kind="RPN"/>
   <Entry i="10" j="1"/>
   <Key Label="MCF+" Kind="RPN"/>
   <Entry i="10" j="3"/>
   <Key Label="RG" Kind="RPN"/>
+  <Entry i="10" j="5"/>
+  <Key Label="RUNTST" Kind="RPN"/>
   <Entry i="10" j="4"/>
   <Key Label="STAT" Kind="RPN"/>
   <Entry i="10" j="2"/>

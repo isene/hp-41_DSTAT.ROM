@@ -1,4 +1,4 @@
-RPN_SRCS = DATA.rpn STAT.rpn RG.rpn
+RPN_SRCS = DATA.rpn STAT.rpn RUNTST.rpn RG.rpn
 RPN_RAWS =
 ASM_SRCS = header.s
 
