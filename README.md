@@ -1,4 +1,4 @@
-# hp-41_DSTAT.ROM
+# hp-41_DSTAT.ROM (version 1B)
 Comprehensive statistical analysis of data sets on the HP-41 calculator.
 
 DSTAT is short for Data/STATistical analysis ROM.
