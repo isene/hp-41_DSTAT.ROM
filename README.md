@@ -78,3 +78,6 @@ This way of testing for randomity can be used to see if e.g. men and women are p
 ### RG
 
 Included in the ROM is also a random number generator. "RG" returns a random number between 0 and 1. This Random Number Generator  uses TIME as input, rendering the numbers generated “more random” than the usual HP-41 solutions that keeps a seed stored for the next value generated. If there is no Time module, RG instead takes the value in X and Y as seeds.
+
+## License
+This software is released into the Public Domain.
