@@ -1,11 +1,11 @@
-<img src="img/dstat_rom_logo.svg" align="left" width="150" height="150" alt="DSTAT ROM Logo">
-
 # hp-41_DSTAT.ROM (version 1B)
 
 [![HP-41](https://img.shields.io/badge/HP--41-Calculator-orange)](https://en.wikipedia.org/wiki/HP-41C)
 [![License](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](https://unlicense.org/)
 [![GitHub stars](https://img.shields.io/github/stars/isene/hp-41_DSTAT.ROM.svg)](https://github.com/isene/hp-41_DSTAT.ROM/stargazers)
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
+
+<img src="img/dstat_rom_logo.svg" align="left" width="150" height="150" alt="DSTAT ROM Logo">
 
 Comprehensive statistical analysis of data sets on the HP-41 calculator.
 
