@@ -6,6 +6,7 @@
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
 
 <img src="img/dstat_rom_logo.svg" align="left" width="150" height="150" alt="DSTAT ROM Logo">
+<br clear="left"/>
 
 Comprehensive statistical analysis of data sets on the HP-41 calculator.
 
