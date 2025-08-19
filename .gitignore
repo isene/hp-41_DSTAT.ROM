@@ -1,0 +1,5 @@
+*.o
+*.lst
+src/DSTAT.mod
+src/DSTAT.rom
+src/DSTAT
